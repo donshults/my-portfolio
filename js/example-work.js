@@ -1,6 +1,6 @@
 import React from 'react';
 
-class ExampleWork extends Component {
+class ExampleWork extends React.Component {
     constructor(props) {
         super(props);
         this.state = {  }
