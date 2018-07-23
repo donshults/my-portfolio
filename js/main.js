@@ -4,35 +4,15 @@ import ExampleWork from './example-work';
 
 const myWork =[
     {
-        'title': 'Burger Builder using React1',
-        'href': 'https://example.com',
-        'desc': 'Some General Info',
+        'title': 'Burger Builder using React',
+        'href': 'http://lp.collaborationsecrets.com/burgerbuilder/',
+        'desc': 'ReactJS based with Firebase Integration. This app is hosted on Amazon S3 and is a example of building a SPA with ReactJS. Code is responsive, and includes an authentication system for creating and managing access via OAuth.',
         'image': {
             'desc': 'ReactJS Based App using Firebase for Data and Authentication',
             'src': 'images/BurgerBuilderSnap.png',
             'comment': 'Burger Builder Snap'
         }
     },
-    {
-        'title': 'Burger Builder using React2',
-        'href': 'https://example.com',
-        'desc': 'Some General Info',
-        'image': {
-            'desc': 'ReactJS Based App using Firebase for Data and Authentication',
-            'src': 'images/BurgerBuilderSnap.png',
-            'comment': 'Burger Builder Snap'
-        }
-    },
-    {
-        'title': 'Burger Builder using React3',
-        'href': 'https://example.com',
-        'desc': 'Some General Info',
-        'image': {
-            'desc': 'ReactJS Based App using Firebase for Data and Authentication',
-            'src': 'images/BurgerBuilderSnap.png',
-            'comment': 'Burger Builder Snap'
-        }
-    }
 ]
 
 ReactDOM.render(<ExampleWork work={myWork} />, document.getElementById('example-work'));
